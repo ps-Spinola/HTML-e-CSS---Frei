@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    font-size: 10px;
+}
+
+header{
+    background-color: red;
+    height: 8em;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4em;
+    padding-right: 3em;
+}
+
+.logo{
+    display: flex;
+    gap: 1em;
+}
+
+img{
+    width: 3.5em;
+}
+
+.hab{
+    width: 20em;
+}
+
+.loguin{
+    display: flex;
+    gap: 1.5em;
+}
+
+.foto img{
+    width: 80rem;
+    
+}
+
+nav{
+    display: flex;
+   justify-content: space-evenly;
+
+}
+
+.teste{
+    box-sizing: border-box;
+    background-color: red;
+    width: 14em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.teste2{
+    box-sizing: border-box;
+    background-color: rgb(219, 255, 58);
+    width: 14em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.teste3{
+    box-sizing: border-box;
+    background-color: rgb(255, 163, 58);
+    width: 14em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.teste4{
+    box-sizing: border-box;
+    background-color: rgb(94, 0, 0);
+    width: 14em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.teste5{
+    box-sizing: border-box;
+    background-color: rgb(162, 22, 255);
+    width: 14em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.teste6{
+    box-sizing: border-box;
+    background-color: rgb(168, 0, 0);
+    width: 14em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.teste7{
+    box-sizing: border-box;
+    background-color: rgb(139, 255, 110);
+    width: 14em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.teste8{
+    box-sizing: border-box;
+    background-color: rgb(255, 148, 232);
+    width: 14em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.teste9{
+    box-sizing: border-box;
+    background-color: rgb(255, 190, 152);
+    width: 14em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    box-sizing: border-box;
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    
+}

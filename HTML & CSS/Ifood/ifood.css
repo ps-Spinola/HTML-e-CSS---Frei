@@ -1,0 +1,248 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    height: 800px;
+    padding: 35px;
+    background-color: rgb(247, 247, 247);
+}
+
+.header{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}  
+
+nav.um{
+    display: flex;
+    gap: 35px;
+    align-items: center;  
+}
+
+.navum{
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    font-size: 17px;
+}
+
+.navum:hover{
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    font-size: 17px;
+    font-weight: 10;
+}
+
+nav.dois{
+    display: flex;
+    gap: 25px;
+    align-items: center; 
+}
+
+.criar{
+    color: red;
+    text-decoration: none;
+}
+
+.criar:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.entrar{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    border-radius: 5px  ;
+}
+
+.entrar:hover{
+    color: white;
+    background-color: rgb(255, 69, 69);
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction:column;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    height: 4000px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+}
+
+h1,p{
+    margin: 5px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.barraPesquisa{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 50px;
+}
+
+.locText{
+    display: flex;
+    gap: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+.locText img{
+    padding: 15px;
+}
+
+.barraPesquisa input{
+    box-sizing: border-box;
+    border: none ;
+    width: 450px;
+    height: 50px;
+    font-size: 18px;
+    outline-color: rgba(240, 240, 240, 0);
+}
+
+.barraPesquisa input:hover{
+    box-sizing: border-box;
+    width: 450px;
+    height: 50px;
+    font-size: 18px;
+    outline-color: rgb(243, 243, 243);
+}
+
+.botao a{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    border-radius: 5px  ;
+}
+
+.botao a:hover{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    border-radius: 5px  ;
+}
+
+#res{
+    height: 100%;
+    width: 100%;
+    padding: 80px;
+    background-color: rgb(211, 31, 31);
+    border: solid white 0px;
+    border-radius: 15px;
+}
+
+.caixas{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    gap: 40px;
+    padding: 50px;
+    
+}
+
+.tudo{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+    box-sizing: border-box;
+    border: solid none 0px;
+    border-radius: 15px;
+    background-color: red;
+    position: relative;
+}
+
+.p{ 
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding-left: 90px;
+    color: white;
+    position: absolute;
+    left: -60px;
+    top: 15px;
+}
+
+.ver{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 160px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.171);
+    color: white;
+    position: absolute;
+    top: 125px;
+    left: 25px;
+}
+
+.conteudo img{
+    padding: 5px 0px 5px 350px;
+}
+
+.tudo img{
+    position: absolute;
+    bottom: 0px;
+    right: 7px;
+}
+
+.tudomercado{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+    box-sizing: border-box;
+    border: solid none 0px;
+    border-radius: 15px;
+    background-color: rgb(182 208 72);
+    position: relative;
+}
+
+.tudomercado img{
+    position: absolute;
+    bottom: 0px;
+    right: 7px;
+}

@@ -1,0 +1,15 @@
+div{
+    width: 100px;
+    height: 100px;
+    padding-left: 17px;
+    padding-top: 42px;
+    box-sizing: border-box;
+    background-color: greenyellow;
+    margin-left: 600px;
+    margin-top: 250px;
+}
+
+body{
+    background-image: url(https://static.vecteezy.com/ti/fotos-gratis/t1/49671166-tigre-surpreendente-fundo-hd-papel-de-parede-foto.jpegz) ;
+    
+}

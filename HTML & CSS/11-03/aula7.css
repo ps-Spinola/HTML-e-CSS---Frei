@@ -1,0 +1,88 @@
+.mae{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 15px;
+    background-color: darkorchid;
+    
+}
+
+.imagem img{
+    width: 450px;
+
+}
+
+.texto{
+    color: antiquewhite;
+    text-align: justify;
+    font-size: 15px;
+
+}
+
+.nao{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    background-color: darkviolet;
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(76, 16, 82);
+    font-size: 50px;
+    width: 500px;
+    border-radius: 25px;
+    justify-content: center;
+    display: flex;
+    
+
+}
+
+.tudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text{
+    display: flex;
+    padding: 15px;
+    text-align: justify;
+
+}
+
+.tudin{
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    text-align: justify;
+
+}
+
+.MEO{
+    background-color:chartreuse;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+
+}
+
+.con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+.confia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darksalmon;
+    padding: 15px;
+
+}

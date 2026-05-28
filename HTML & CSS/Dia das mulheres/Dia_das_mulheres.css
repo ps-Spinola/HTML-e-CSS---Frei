@@ -1,0 +1,56 @@
+body{
+    background-image: url('https://static.vecteezy.com/ti/fotos-gratis/p2/1223821-jovem-mulher-bonita-com-bracos-levantados-na-primavera-campo-de-papoula-foto.jpg');
+    background-size: cover;
+
+}
+
+.geral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    margin-left: 500px;
+    background-color: rgba(216, 112, 147, 0.568);
+    box-sizing: border-box;
+    border-radius: 100px;
+    border-width: 200px;
+    width: 300px;
+    height: 100px;
+    
+
+}
+
+.um{
+    background-color: rgb(255, 144, 240);
+}
+
+.dois{
+    background-color: rgb(145, 145, 248);
+}
+
+.pergunta{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.mae{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 20px;
+}
+
+
+.homem {
+    display: flex;
+    margin-left: 20px;
+    height: 50px;
+}
+
+.mulher{
+    display: flex;
+    height: 50px;
+}

@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 73px;
+}
+
+.logo{
+    margin: 18px;
+}
+
+.barraMenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 700px;
+}
+
+.inicio{
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+}
+
+.a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.a:hover{
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+}
+
+.lupa{
+    display: flex;
+    flex-direction: row;
+    width: 220px;
+    gap: 10px;
+    align-items: center;
+}
+
+.entrega{
+    background-color: red;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.entrega:hover{
+    background-color: rgb(146, 0, 0);
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.corpo{
+    background-color: red;
+    background-image: url(https://entregador.ifood.com.br/wp-content/uploads/2026/03/bg-principal.png);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

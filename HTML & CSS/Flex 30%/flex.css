@@ -1,0 +1,19 @@
+.int{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 20px;
+    height: 450px;
+    box-sizing: border-box;
+    border: 20px solid red;
+    align-items: center;
+}
+
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 30%;
+    background-color: rgb(19, 209, 200);
+    height: 100px;
+}

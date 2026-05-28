@@ -1,0 +1,60 @@
+body{
+    background-color: rgba(216, 216, 216, 0.281);
+    background-image: url(Design\ sem\ nome\ \(4\).png);
+    display: flex;
+    flex-direction: column;
+    padding: 85px;
+}
+
+.Mae{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+}
+
+.Topo{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-block-end: solid rgb(122, 122, 122); 
+    border-radius: 10px;
+    padding: 35px;
+}
+
+.Info{
+    text-align: end;
+    
+}
+
+.link{
+    text-align: end;
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-align: end;
+    color: rgba(0, 0, 255, 0.425);
+    text-decoration: none;
+}
+
+.InfoCompl a{
+    text-align: end;
+    color: black;
+    text-decoration: none;
+}
+
+.InfoCompl a:hover{
+    text-align: end;
+    color: rgba(0, 0, 255, 0.425);
+    text-decoration: none;
+}

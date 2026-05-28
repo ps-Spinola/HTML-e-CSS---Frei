@@ -1,0 +1,24 @@
+body{
+    background-image:  url(https://i.pinimg.com/736x/c5/3c/04/c53c041bce4595ccc64a3db4f40c85da.jpg) ;
+    background-size: cover;
+}
+
+.div1{
+    box-sizing: border-box;
+    padding-left: 130px;
+    padding-top: 65px;
+    background-color: rgb(174, 255, 139);
+    width: 450px;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: 430px;
+    border-radius: 300px;
+    border: 5px solid white;
+}
+
+.div2{
+    width: 140px;
+    height: 70px;
+    font-style: italic;
+
+}

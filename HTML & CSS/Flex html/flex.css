@@ -1,0 +1,21 @@
+.Flex{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: beige;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    justify-content: center;
+
+}
+
+.div3{
+    border-radius: 50px;
+
+}

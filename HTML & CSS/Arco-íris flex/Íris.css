@@ -1,0 +1,167 @@
+/* Títulos */
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+/* Ex1 */
+.Ex1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        box-sizing: border-box;
+        height: 500px;
+        border-color: rgb(168, 168, 168);
+        border-style: solid;
+    }
+
+    /* Q1 */   
+    .Q1{
+        width: 250px;
+        height: 250px;
+        background-color: rgb(14, 211, 14);
+
+    }
+
+    /* Q2 */   
+    .Q2{
+        width: 250px;
+        height: 250px;
+        background-color: yellow;
+
+    }
+
+    /* Q3 */   
+    .Q3{
+        width: 250px;
+        height: 250px;
+        background-color: red;
+
+    }
+
+/* Ex2 */
+.Ex2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        height: 500px;
+        border-color: rgb(168, 168, 168);
+        border-style: solid;
+        padding: 40px;
+    }
+
+    /* Q1 */   
+    .Q1{
+        width: 250px;
+        height: 250px;
+        background-color: rgb(14, 211, 14);
+
+    }
+
+    /* Q2 */   
+    .Q2{
+        width: 250px;
+        height: 250px;
+        background-color: yellow;
+
+    }
+
+/* Ex3 */
+.Ex3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-content: center;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        border-color: rgb(168, 168, 168);
+        border-style: solid;
+        gap: 25px;
+        padding: 0px;
+    }
+
+    /* T1 */ 
+.T1{
+    display: flex;
+    justify-content: space-evenly;
+    
+    width: 100%;
+    height: 100%;
+    
+}
+
+    /* Q1 */   
+    .Q1{
+        width: 250px;
+        height: 250px;
+        background-color: rgb(255, 0, 0);
+
+    }
+
+    /* Q2 */   
+    .Q2{
+        width: 250px;
+        height: 250px;
+        background-color: rgb(255, 165, 0);
+
+    }
+
+    /* Q3 */   
+    .Q3{
+        width: 250px;
+        height: 250px;
+        background-color: rgb(255, 255, 0);
+
+    }
+
+    /* Q4 */   
+    .Q4{
+        width: 250px;
+        height: 250px;
+        background-color: rgb(0, 255, 0);
+
+    }
+    
+    /* Q5 */   
+    .Q5{
+        width: 250px;
+        height: 250px;
+        background-color: rgb(0, 128, 0);
+
+    }
+
+    /* Q6 */   
+    .Q6{
+        width: 250px;
+        height: 250px;
+        background-color: rgb(0, 0, 255);
+
+    }/* Q7 */   
+    .Q7{
+        width: 250px;
+        height: 250px;
+        background-color: rgb(75, 0, 130);
+
+    }
+
+    /* Q8 */   
+    .Q8{
+        width: 250px;
+        height: 250px;
+        background-color: rgb(148, 0, 211);
+
+    }
+
+    /* Q9 */   
+    .Q9{
+        width: 250px;
+        height: 250px;
+        background-color: rgb(75, 0, 130);
+
+    }
+

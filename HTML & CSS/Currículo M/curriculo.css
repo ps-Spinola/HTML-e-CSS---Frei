@@ -1,0 +1,112 @@
+.mãe{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+
+}
+
+section{
+    
+}
+
+p{
+    font-size: 18px;
+
+}
+
+section h1{
+    font-size: 30px;
+    color: teal;
+
+}
+
+.barra{
+    display: flex;
+    height: 1500px;
+    width: 350px;
+    flex-direction: column;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: rgb(16, 94, 94);
+}
+
+.barra ul{
+    padding-left: 15px;
+    margin: 0px;
+}
+
+.barra ul li{
+    font-size: 18px;
+}
+
+.foto{
+    display: flex;
+    align-self: center;
+    padding: 15px;
+}
+
+.foto img{
+    display: flex;
+    align-self: center;
+    gap: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 120px;
+}
+
+.barra section h1{
+    color: white;
+}
+
+.barra section{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(69, 212, 212);
+}
+
+section h4{
+    font-style: italic;
+    margin-bottom: -10px;
+    font-size: 20px;
+}
+
+.fundo{
+    display: flex;
+    height: 1500px;
+    width: auto;
+    flex-direction: column;
+    text-align: justify;
+    padding: 60px;
+    box-sizing: border-box;
+    background-color: rgb(221, 221, 221);
+}
+
+.nome{
+    font-size: 45px;
+    margin-bottom: 0px;
+    color:  rgb(16, 94, 94);
+}
+
+.função{
+    margin-top: 0px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+li h4{
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.fundo ul{
+    padding-left: 15px;
+    margin-top: 0px;
+}

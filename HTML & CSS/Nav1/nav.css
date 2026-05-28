@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin-left: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(2, 94, 51);
+    justify-content: end;
+    gap: 10px;
+}
+
+nav li{
+   
+    
+   display: inline-block;
+}
+
+nav li a{
+    color: aliceblue;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+}
+
+nav li a:hover{
+    background-color: rgb(77, 189, 133);
+    color: rgb(2, 94, 51);
+    
+}

@@ -1,0 +1,13 @@
+div{
+    position: relative;
+    width: 800px;
+    height: 800px;
+    background-color: rgb(14, 199, 75);
+}
+
+img{
+    position: absolute;
+    right: 60%;
+    bottom: 44%;
+    
+}
